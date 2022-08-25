@@ -1,0 +1,31 @@
+{
+	"name": "poc-node-backup-restore-db",
+	"version": "1.0.0",
+	"description": "PoC de api com as funcionalidades de backup e restore do banco de dados independente de tecnologia",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/matheusvitors/poc-node-backup-restore-db.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/matheusvitors/poc-node-backup-restore-db/issues"
+	},
+	"homepage": "https://github.com/matheusvitors/poc-node-backup-restore-db#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"nodemon": "^2.0.15"
+	},
+	"devDependencies": {
+		"prisma": "^4.1.0"
+	}
+}
